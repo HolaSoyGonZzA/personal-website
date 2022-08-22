@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #14274e;
+    padding: 2rem;
+}
+
+.title {
+    font-weight: normal;
+}
+
+.bigger {
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    background-color: #008f69;
+    padding: 0.5rem;
+}
+
+#btn {
+    padding: 0.25rem 1rem;
+    border-color: #14274e;
+    border-radius: 2px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
